@@ -7,7 +7,7 @@ std::cout << "Hello world"
 */
 
 int variables () {
-    
+
     /* Variable types:
     - Int -> Integers (whole numbers) without decimals. Either positive or negative values.
     - double -> floating point numbers, with decimals. Either positive or negative values.
@@ -41,6 +41,24 @@ int variables () {
     int a, b, c;
     a = b = c = 2; // same value to multiple variables
     cout << a + b + c << endl; 
+
+    const float PI = 3.1416; // declaring PI as constant, PI value won't change. Read-only variable. It should have always a value assigned at the moment of declaration.
+
+    simpleCalculator(); 
+
+
+    return 0;
+}
+
+int simpleCalculator () {   // additional demonstration of user input data
+
+    int x, y, sum;
+    cout << "Type a number: ";
+    cin >> x;
+    cout << "Type another number: ";
+    cin >> y;
+    sum = x + y;
+    cout << "Sum is: " << sum << endl;
 
     return 0;
 
