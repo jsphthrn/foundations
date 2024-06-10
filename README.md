@@ -1,2 +1,2 @@
 # foundations
-This repository is meant to allocate the exercises of one book I bought regarding the foundations of programming. Excercices and some other documentation might be included here.
+This repository is meant to allocate the exercises of one book I bought regarding the foundations of programming. I'm also including the notes regarding the syntax and some other foundations for C++, Java and maybe JavaScript. Used Python as an starting point. Eventually, I'll try to implement the exercises in two or three of these languages. Some other documentation might be included here.
