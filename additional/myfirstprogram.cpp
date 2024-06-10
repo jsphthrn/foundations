@@ -94,6 +94,19 @@ int dataTypes () {
     return 0;
 }
 
+int operators () {
+
+    int op1 = 4 + 5; // add operator +.
+    int op2 = op1 - 2; // substract operator -.
+    int op3 = op2 * 8 // multiplication operator *.
+    float op4 = op3 / 3; // division operator /.
+    int op5 = op3 % 7; // modulus operator (division remainder) %.
+    int op6 = op5;
+    ++op6; // Increment op6 value by one.
+    
+
+}
+
 int main () {   // declaration of a function
     cout << "Hello World"; // cout is an object to print text (as output in terminal). << is insertion operator.
     cout << endl;   // Blank line, also can use "\n\n" but endl seems cooler.
@@ -102,6 +115,7 @@ int main () {   // declaration of a function
     variables();    // Invoke variables section
     simpleCalculator(); 
     dataTypes();
+    operators ();
 
     return 0; // By now this is just for ending main function but can be used for other real cool stuff.
 } 
